@@ -186,7 +186,7 @@ function Hero({ heroRef, heroVisible, scrollToSection }) {
                     className="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-700"
                   />
                   className="w-full h-full object-cover transform
-                  group-hover:scale-110 transition-transform duration-700" />
+                  group-hover:scale-110 transition-transform duration-700"
                   {/* Gradient Overlay */}
                   <div className="absolute inset-0 bg-gradient-to-t from-slate-950 via-transparent to-transparent opacity-60"></div>
                   {/* Hover Glow Effect */}
