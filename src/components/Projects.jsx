@@ -8,6 +8,7 @@ import project5Img from "../assets/projects/project5.jpg";
 import project6Img from "../assets/projects/project6.jpg";
 import project7Img from "../assets/projects/project7.jpg";
 import project8Img from "../assets/projects/project8.jpg";
+import project9Img from "../assets/projects/project9.jpg";
 
 function Projects({ projectsRef, projectsVisible }) {
   const [selectedProject, setSelectedProject] = useState(null);
@@ -17,6 +18,47 @@ function Projects({ projectsRef, projectsVisible }) {
   const projects = [
     {
       id: 1,
+      title: "Multi-Vendor E-Commerce Marketplace",
+      category: "Full-stack Web Application",
+      filter: "Dashboard",
+      image: project9Img,
+      shortDesc:
+        "A full-featured e-commerce platform enabling multiple vendors to create their own stores, manage products & inventory, while providing customers with a seamless shopping experience.",
+      fullDesc:
+        "A comprehensive e-commerce solution that empowers multiple vendors to run their businesses on a unified platform. Vendors can register, create stores, manage inventory, and track sales while customers enjoy a seamless multi-vendor shopping experience.",
+      technologies: [
+        "HTML5",
+        "CSS3",
+        "JavaScript ES6+",
+        "React.js (v18+)",
+        "Lucide React",
+        "React Router DOM (v6)",
+        "Context API",
+        "Local Storage (prototype phase)",
+        "Tailwind CSS for modern, responsive design",
+        "Font libraries for icons",
+        "MongoDB for production",
+        "jQuery (likely for interactive elements)",
+      ],
+      features: [
+        "Multi-role registration (Customer, Vendor, Admin)",
+        "Email validation",
+        "Password encryption (bcrypt simulation)",
+        "Unique email check",
+        "Vendor store creation during registration",
+        "Auto-login after registration",
+        "Grid layout display (responsive).",
+        "Backend integration (Node.js + Express + MongoDB)",
+        "Real payment processing (Stripe)",
+        "PWA (Progressive Web App)",
+        "Advanced search (Elasticsearch)",
+        "Wishlist functionality",
+      ],
+      liveUrl: "https://vendomarket.netlify.app/",
+      githubUrl: "https://github.com/engBeshoyRamy/Vendo-Market",
+    },
+    {
+      id: 2,
       title: "Daniels - Portfolio",
       category: "Web Development",
       filter: "Portfolio",
@@ -49,7 +91,7 @@ function Projects({ projectsRef, projectsVisible }) {
       githubUrl: "https://github.com/engBeshoyRamy/Daniels-project-",
     },
     {
-      id: 2,
+      id: 3,
       title: "Smart Login System Dashboard",
       category: "Web Application / Authentication System",
       filter: "Dashboard",
@@ -81,7 +123,7 @@ function Projects({ projectsRef, projectsVisible }) {
         "https://github.com/engBeshoyRamy/Smart-Login-System-Dashboard",
     },
     {
-      id: 3,
+      id: 4,
       title: "Modern Todo List Application",
       category: "Web Application / Productivity Tool",
       filter: "Applications",
@@ -112,7 +154,7 @@ function Projects({ projectsRef, projectsVisible }) {
         "https://github.com/engBeshoyRamy/Modern-Todo-List-Application-",
     },
     {
-      id: 4,
+      id: 5,
       title: "Quiz Application",
       category: "Web Application / Educational Tool",
       filter: "Applications",
@@ -141,7 +183,7 @@ function Projects({ projectsRef, projectsVisible }) {
       githubUrl: "https://github.com/engBeshoyRamy/quiz-application-",
     },
     {
-      id: 5,
+      id: 6,
       title: "Mealify Landing Page",
       category: "Web Development",
       filter: "Landing page",
@@ -171,7 +213,7 @@ function Projects({ projectsRef, projectsVisible }) {
       githubUrl: "https://github.com/engBeshoyRamy/Mealify-landingpage",
     },
     {
-      id: 6,
+      id: 7,
       title: "Bookmarker",
       category: " Web Application / Productivity Tool",
       filter: "Applications",
@@ -201,11 +243,11 @@ function Projects({ projectsRef, projectsVisible }) {
       githubUrl: "https://github.com/engBeshoyRamy/Bookmarker-dashboard",
     },
     {
-      id: 7,
+      id: 8,
       title: "Personal Portfolio Website",
       category: "Web Development",
       filter: "Portfolio",
-      image: project7Img ,
+      image: project7Img,
       shortDesc:
         "A modern and responsive portfolio website showcasing my skills, projects, and professional experience as a Front-End Engineer.",
       fullDesc:
@@ -232,15 +274,24 @@ function Projects({ projectsRef, projectsVisible }) {
       githubUrl: "#",
     },
     {
-      id: 8,
+      id: 9,
       title: "Code-Craft Dashboard",
       category: "Full-Stack Web Application",
       filter: "Dashboard",
-      image:project8Img ,
-      shortDesc: "A comprehensive web development project featuring both frontend and backend components, built with modern JavaScript technologies.",
+      image: project8Img,
+      shortDesc:
+        "A comprehensive web development project featuring both frontend and backend components, built with modern JavaScript technologies.",
       fullDesc:
         "A full-stack web application with separate frontend and backend architecture. Features modular code structure and multiple commits showing active development with 2 contributors.",
-      technologies: ["React",'Tailwind CSS',"JavaScript (97.2%)", "CSS (2.2%)", "HTML (0.6%)", "Node.js / npm (package management)",'Frontend Framework/Library'],
+      technologies: [
+        "React",
+        "Tailwind CSS",
+        "JavaScript (97.2%)",
+        "CSS (2.2%)",
+        "HTML (0.6%)",
+        "Node.js / npm (package management)",
+        "Frontend Framework/Library",
+      ],
       features: [
         "Full-Stack Architecture - Separate frontend and backend components",
         "Modern JavaScript - Built with contemporary JS practices",
@@ -248,7 +299,7 @@ function Projects({ projectsRef, projectsVisible }) {
         "Modular Structure - Organized frontend directory",
         "Version Control - Git workflow with 19 commits",
         "Collaborative Development - 2 contributors",
-        'Cross-platform Compatible - Works across different environments'
+        "Cross-platform Compatible - Works across different environments",
       ],
       liveUrl: "https://code-craftt.netlify.app/",
       githubUrl: "https://github.com/engBeshoyRamy/Code-Craft",
