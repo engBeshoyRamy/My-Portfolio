@@ -9,6 +9,8 @@ import project6Img from "../assets/projects/project6.jpg";
 import project7Img from "../assets/projects/project7.jpg";
 import project8Img from "../assets/projects/project8.jpg";
 import project9Img from "../assets/projects/project9.jpg";
+import project10Img from "../assets/projects/project10.jpg";
+import project11Img from "../assets/projects/project11.jpg";
 
 function Projects({ projectsRef, projectsVisible }) {
   const [selectedProject, setSelectedProject] = useState(null);
@@ -59,6 +61,51 @@ function Projects({ projectsRef, projectsVisible }) {
     },
     {
       id: 2,
+      title: "FitTrack Pro - Fitness Workout Planner & Tracker",
+      category: "Web Development",
+      filter: "Applications",
+      image: project11Img,
+      shortDesc:
+        "A powerful fitness workout planner and tracker that helps users build custom workouts, track progress, log exercises in real-time, and visualize their fitness journey with detailed analytics.",
+      fullDesc:
+        "FitTrack Pro is a full-featured fitness workout planner and tracking application designed for fitness enthusiasts of all levels. It allows users to create personalized workout plans, follow guided active workouts with timers, log performance, track body measurements, set goals, and analyze progress through interactive charts and statistics.",
+      technologies: [
+        "React.js (18+)",
+        "JavaScript (ES6+)",
+        "Tailwind CSS",
+        "Context API (State Management)",
+        "Window Storage API",
+        "Recharts (Data Visualization)",
+        "Lucide React (Icons)",
+        "Framer Motion (Animations)",
+        "Custom Hooks",
+        "Web Audio API",
+        "Responsive Design",
+      ],
+      features: [
+        "Workout Builder - Create custom workout plans with drag-and-drop exercises, sets, reps, weights, and rest times.",
+        "Pre-built Exercise Library - 50+ exercises categorized by muscle groups with instructions and animated visuals.",
+        "Active Workout Mode - Live workout execution with timers, rest countdowns, sound alerts, and set tracking.",
+        "Workout Logging - Log completed workouts with duration, volume, calories burned, notes, and ratings.",
+        "Progress Tracking - Track body measurements, workout history, volume progression, and personal records (PRs).",
+        "Analytics Dashboard - Weekly and monthly stats with charts for volume, frequency, muscle distribution, and trends.",
+        "Goals & Achievements - Set fitness goals, track progress visually, unlock achievement badges, and celebrate milestones.",
+        "Personal Records Tracker - Automatic detection and tracking of PRs for each exercise.",
+        "Calendar Workout History - View workouts in calendar and list views with filtering options.",
+        "Exercise Management - Search, filter, favorite, and add custom exercises.",
+        "Dark Mode Support - Seamless light and dark theme switching across the app.",
+        "Toast Notifications - Real-time feedback for actions such as saves, updates, and completions.",
+        "Confetti & Animations - Visual celebrations for achievements and completed goals.",
+        "Persistent Storage - All data stored and retrieved using window.storage API with error handling.",
+        "Responsive Navigation - Optimized experience for mobile, tablet, and desktop devices.",
+        "Form Validation - Client-side validation with clear error messages.",
+        "Loading States & Skeletons - Smooth loading experience across all pages.",
+      ],
+      liveUrl: "https://fitness-trackersystem.netlify.app/",
+      githubUrl: "https://github.com/engBeshoyRamy/Fitness-Tracker",
+    },
+    {
+      id: 3,
       title: "Daniels - Portfolio",
       category: "Web Development",
       filter: "Portfolio",
@@ -91,7 +138,7 @@ function Projects({ projectsRef, projectsVisible }) {
       githubUrl: "https://github.com/engBeshoyRamy/Daniels-project-",
     },
     {
-      id: 3,
+      id: 4,
       title: "Smart Login System Dashboard",
       category: "Web Application / Authentication System",
       filter: "Dashboard",
@@ -123,7 +170,7 @@ function Projects({ projectsRef, projectsVisible }) {
         "https://github.com/engBeshoyRamy/Smart-Login-System-Dashboard",
     },
     {
-      id: 4,
+      id: 5,
       title: "Modern Todo List Application",
       category: "Web Application / Productivity Tool",
       filter: "Applications",
@@ -154,7 +201,7 @@ function Projects({ projectsRef, projectsVisible }) {
         "https://github.com/engBeshoyRamy/Modern-Todo-List-Application-",
     },
     {
-      id: 5,
+      id: 6,
       title: "Quiz Application",
       category: "Web Application / Educational Tool",
       filter: "Applications",
@@ -183,11 +230,11 @@ function Projects({ projectsRef, projectsVisible }) {
       githubUrl: "https://github.com/engBeshoyRamy/quiz-application-",
     },
     {
-      id: 6,
+      id: 7,
       title: "BookEase - Appointment Booking System",
       category: "Web Development",
       filter: "Applications",
-      image: project5Img,
+      image: project10Img,
       shortDesc:
         "A comprehensive appointment booking system that simplifies scheduling professional services with real-time availability, instant confirmation, and admin management dashboard.",
       fullDesc:
@@ -221,10 +268,11 @@ function Projects({ projectsRef, projectsVisible }) {
         "Persistent Storage - Data persistence using browser LocalStorage with fallback handling.",
       ],
       liveUrl: "https://bookeaseappointment.netlify.app/",
-      githubUrl: "https://github.com/engBeshoyRamy/BookEase-Appointment-Booking-System",
+      githubUrl:
+        "https://github.com/engBeshoyRamy/BookEase-Appointment-Booking-System",
     },
     {
-      id: 7,
+      id: 8,
       title: "Mealify Landing Page",
       category: "Web Development",
       filter: "Landing page",
@@ -254,7 +302,7 @@ function Projects({ projectsRef, projectsVisible }) {
       githubUrl: "https://github.com/engBeshoyRamy/Mealify-landingpage",
     },
     {
-      id: 8,
+      id: 9,
       title: "Bookmarker",
       category: " Web Application / Productivity Tool",
       filter: "Applications",
@@ -284,7 +332,7 @@ function Projects({ projectsRef, projectsVisible }) {
       githubUrl: "https://github.com/engBeshoyRamy/Bookmarker-dashboard",
     },
     {
-      id: 9,
+      id: 10,
       title: "Personal Portfolio Website",
       category: "Web Development",
       filter: "Portfolio",
@@ -315,7 +363,7 @@ function Projects({ projectsRef, projectsVisible }) {
       githubUrl: "#",
     },
     {
-      id: 10,
+      id: 11,
       title: "Code-Craft Dashboard",
       category: "Full-Stack Web Application",
       filter: "Dashboard",
